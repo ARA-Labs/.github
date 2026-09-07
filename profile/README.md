@@ -15,13 +15,13 @@ We build infrastructure for AI scientists: systems that help them learn from pri
 
 ## Featured open-source work
 
-We open-source the protocols, tools, models, and experiments behind AI-native research and recursive self-improvement.
+Our open-source work spans the full loop: preserve what an AI scientist learned, put new knowledge into the model, steer the next experiment, and make the whole process inspectable.
 
-| Project | What it does |
+| Project | Why it matters |
 | --- | --- |
-| [Agent-Native Research Artifact](https://github.com/ARA-Labs/Agent-Native-Research-Artifact) | A research format that connects every claim to its evidence, code, and experimental history. |
-| [PULP-LLM](https://github.com/ARA-Labs/PULP-LLM) | Teaches a small open model the details of a real chip platform, with the full data, training, and evaluation recipe. |
-| [fuzz-testing-for-science](https://github.com/ARA-Labs/fuzz-testing-for-science) | Provides the runnable experiments behind *Agentic Auto-Research is Fuzz Testing*. |
-| [ara-cli](https://github.com/ARA-Labs/ara-cli) | A fast command-line tool and local server for exploring research artifacts. |
+| [Agent-Native Research Artifact](https://github.com/ARA-Labs/Agent-Native-Research-Artifact) | The memory and trust layer for AI science. It turns claims, evidence, code, decisions, and dead ends into research that other agents can verify and build on. |
+| [PULP-LLM](https://github.com/ARA-Labs/PULP-LLM) | Turns an entire chip platform—register maps, RTL, drivers, build system, and issue history—into model knowledge. The resulting 9B open model beats Claude Opus 5 on closed-book chip questions (81.6% vs. 72.2%). |
+| [fuzz-testing-for-science](https://github.com/ARA-Labs/fuzz-testing-for-science) | Gives autonomous scientists the feedback they are missing: where a theory breaks, what remains unexplored, and whether a claimed discovery survives its own evidence. |
+| [ara-cli](https://github.com/ARA-Labs/ara-cli) | Turns ARA from a file format into working infrastructure: one local binary validates the research, renders its full trajectory, and enforces the format in CI. |
 
 Explore our work at [agenticresearch.sh](https://www.agenticresearch.sh/) or browse [all public repositories](https://github.com/orgs/ARA-Labs/repositories?type=public).
